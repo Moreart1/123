@@ -23,17 +23,17 @@ namespace ДЗ_1._1
             if (vvod == "1")
             {
                 var block = new Block();
-                block.Work();
+                block.work();
             }
             else if (vvod == "2")
             {
-                var fibo = new BezFibonachi();
-                fibo.BFibonachi();
+                var fibo = new bezFibonachi();
+                fibo.bFibonachi();
             }
             else if (vvod == "3")
             {
-                var fiboRecursion = new RecFibonachi();
-                fiboRecursion.RecursionFibonachi();
+                var fiboRecursion = new recFibonachi();
+                fiboRecursion.recursionFibonachi();
             }
             else if (vvod == "4")
             {
