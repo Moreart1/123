@@ -65,6 +65,27 @@ namespace ДЗ_1._1
                 tree.Remove(29);
                 BinaryTreeExtensions.Print(tree);
 
+                SearchDFS ser = new SearchDFS(5);
+                ser.Add(0, 1);
+                ser.Add(0, 2);
+                ser.Add(1, 1);
+                ser.Add(1, 2);
+                ser.Add(2, 0);
+                ser.Add(2, 3);
+                ser.Add(3, 4);
+                Console.WriteLine("поиск в глубину");
+                ser.DFSSer(2);
+
+                SearchBFS sear = new SearchBFS(5);
+                sear.Add(0, 1);
+                sear.Add(0, 2);
+                sear.Add(1, 1);
+                sear.Add(1, 2);
+                sear.Add(2, 0);
+                sear.Add(2, 3);
+                sear.Add(3, 4);
+                Console.WriteLine("поиск в ширину");
+                sear.BFS(2);
 
             }
         }
