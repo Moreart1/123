@@ -19,6 +19,7 @@ namespace ДЗ_1._1
             Console.WriteLine("Введите 4,если хотите вывести двусвязный список");
             Console.WriteLine("Введите 5,если хотите вывести расчет дистанции");
             Console.WriteLine("Введите 6,если хотите вывести поиск бинарного дерева");
+            Console.WriteLine("Введите 7,если хотите реализовать загрузку списка уроков из файла.");
             var vvod = Console.ReadLine();
             if (vvod == "1")
             {
@@ -86,7 +87,12 @@ namespace ДЗ_1._1
                 sear.Add(3, 4);
                 Console.WriteLine("поиск в ширину");
                 sear.BFS(2);
-
+            }
+            else if (vvod == "7")
+            {
+                var File = new SaveText();
+                File.Save();
+                
             }
         }
     }
