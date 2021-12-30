@@ -5,20 +5,24 @@ using System.Text;
 using System.Threading.Tasks;
 using BenchmarkDotNet;
 using BenchmarkDotNet.Running;
+using System.Reflection;
+using System.IO;
+using System.Runtime.Loader;
+
 
 namespace ДЗ_1._1
 {
     class Program
     {
         static void Main(string[] args)
-        { 
-            
+        {
             Console.WriteLine("Введите 1,если хотите вывести на экран алгоритм проверки, простое число или нет.");
             Console.WriteLine("Введите 2,если хотите вывести на экран функцию вычисления числа Фибоначчи без рекурсии");
             Console.WriteLine("Введите 3,если хотите вывести на экран функцию вычисления числа Фибоначчи с помощью рекурсии");
             Console.WriteLine("Введите 4,если хотите вывести двусвязный список");
             Console.WriteLine("Введите 5,если хотите вывести расчет дистанции");
             Console.WriteLine("Введите 6,если хотите вывести поиск бинарного дерева");
+            Console.WriteLine("Введите 7,если хотите реализовать  алгоритм задачи на количество вариантов и вывод количества вариантов для последовательности");
             var vvod = Console.ReadLine();
             if (vvod == "1")
             {
@@ -86,7 +90,12 @@ namespace ДЗ_1._1
                 sear.Add(3, 4);
                 Console.WriteLine("поиск в ширину");
                 sear.BFS(2);
-
+            }
+            else if (vvod == "7")
+            {
+                var File = new SaveText();
+                File.Save();
+                
             }
         }
     }
