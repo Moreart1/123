@@ -90,12 +90,12 @@ namespace ДЗ_1._1
                 sear.Add(3, 4);
                 Console.WriteLine("поиск в ширину");
                 sear.BFS(2);
+
             }
             else if (vvod == "7")
             {
-                var File = new SaveText();
-                File.Save();
-                
+                var _Chess = new Chess();
+                _Chess.Start();
             }
         }
     }
