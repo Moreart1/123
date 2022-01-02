@@ -7,6 +7,7 @@ using System.Reflection;
 using System.Runtime.Loader;
 using Microsoft.Extensions.DependencyModel;
 using System.IO;
+using AddFunction;
 
 namespace ДЗ_1._1
 {

@@ -72,3 +72,4 @@ C:\Users\Mark\Desktop\Algoritms\bin\Debug\net5.0\Microsoft.Extensions.Dependency
 C:\Users\Mark\Desktop\Algoritms\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Mark\Desktop\Algoritms\bin\Debug\net5.0\System.Text.Encodings.Web.dll
 C:\Users\Mark\Desktop\Algoritms\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\Mark\Desktop\Algoritms\bin\Debug\net5.0\AddFunction.dll

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using BenchmarkDotNet;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
+using AddFunction;
 
 namespace ДЗ_1._1
 {
