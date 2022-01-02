@@ -94,8 +94,9 @@ namespace ДЗ_1._1
             }
             else if (vvod == "7")
             {
-                var _Chess = new Chess();
-                _Chess.Start();
+                var File = new SaveText();
+                File.Save();
+                
             }
         }
     }
