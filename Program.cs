@@ -8,6 +8,7 @@ using BenchmarkDotNet.Running;
 using System.Reflection;
 using System.IO;
 using System.Runtime.Loader;
+using AddFunction;
 
 
 namespace ДЗ_1._1
@@ -88,7 +89,7 @@ namespace ДЗ_1._1
                 sear.Add(2, 0);
                 sear.Add(2, 3);
                 sear.Add(3, 4);
-                Console.WriteLine("поиск в ширину");
+                Console.WriteLine("\nпоиск в ширину");
                 sear.BFS(2);
             }
             else if (vvod == "7")
@@ -97,6 +98,7 @@ namespace ДЗ_1._1
                 File.Save();
                 
             }
+           
         }
     }
 }

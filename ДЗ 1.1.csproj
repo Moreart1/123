@@ -11,4 +11,10 @@
     <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="AddFunction">
+      <HintPath>..\..\source\repos\ДЗ 1.1\ДЗ 1.1\AddFunction.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
